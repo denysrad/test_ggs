@@ -2,7 +2,7 @@
 
 -    Create directory test1    
 ```console   
-mkdir test      
+mkdir test1       
 ```  
 - Create file test1.txt inside the test1 directory.  
 ```console  
