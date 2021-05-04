@@ -84,7 +84,7 @@ grep POST test.txt | awk '{ print $1}' | sort | uniq -c | sort -nr | head -n 3
 
 -  Which IP addresses received 403 error ? 
 ```  
-awk '($9 ~ /403/)' test.txt | awk '{ print $1}'
+grep ' 403 '  test.txt | awk '{ print $1}'
 ```
 
 - Task with * . Write script to show which pages Google checked from the website 
