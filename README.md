@@ -39,7 +39,7 @@
 - wc -l test.txt
 
 - Show last 3 lines from the test.txt file. 
-
+- tail -n 3 test.txt
 
 -  Hom many uniq IP addresses accessed the website ? 
 
