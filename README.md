@@ -42,7 +42,7 @@
 - tail -n 3 test.txt
 
 -  Hom many uniq IP addresses accessed the website ? 
-
+- awk '{ print $1 } ' test.txt | sort | uniq | wc -l
 
 -  IP address with most requests.
 
