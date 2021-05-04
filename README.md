@@ -1,15 +1,15 @@
 ## Basic work with files
 
-- Create directory test1
+-    Create directory test1
   mkdir test1
 - Create file test1.txt inside the test1 directory.
   touch test1.txt
--   Create copy of folder test1 with name test2.  
+-    Create copy of folder test1 with name test2.  
   cp -R test1 test2
 -    Delete file test1.txt inside test2 directory.
   rm test1.txt
 -    Rename test2 folder into directory_without_file
-
+  mv test2 directory_without_file
 -    Insert 'test1' text into test1/test1.txt file.
 
 -    print the text from the test1/test1.txt file.
