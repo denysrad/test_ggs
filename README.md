@@ -59,7 +59,7 @@ bash date.sh
 
 -  Count lines in the file test.txt.
 ```   
-wc -l test.txt'  
+wc -l test.txt   
 ```  
 
 - Show last 3 lines from the test.txt file. 
