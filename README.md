@@ -7,7 +7,7 @@
 -    Create copy of folder test1 with name test2.  
 - cp -R test1 test2
 -    Delete file test1.txt inside test2 directory. 
-- rm test1/test1.txt
+- rm test2/test1.txt
 -    Rename test2 folder into directory_without_file
 - mv test2 directory_without_file
 -    Insert 'test1' text into test1/test1.txt file.
@@ -27,7 +27,11 @@
 - rmdir testdir
 
 -    Create simple script which prints current date. Try to execute it.
-
+- vi date.sh
+- #!/bin/sh
+- echo $(date '+%Y-%m-%d')
+- :wq
+- bash date.sh 
 
 ## Log checking
 
