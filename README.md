@@ -45,7 +45,7 @@
 - awk '{ print $1 } ' test.txt | sort | uniq | wc -l
 
 -  IP address with most requests.
-
+- awk '{ print $1}' test.txt | sort | uniq -c | sort -nr | head -n 1
 
 -  Top 3 IP addresses by amount of POST requests.
 
