@@ -87,5 +87,14 @@ grep POST test.txt | awk '{ print $1}' | sort | uniq -c | sort -nr | head -n 3
 grep ' 403 '  test.txt | awk '{ print $1}'
 ```
 
-- Task with * . Write script to show which pages Google checked from the website 
-
+- Task with * . Write script to show which pages Google checked from the website  
+Скрипт [тут](https://github.com/denysrad/test_ggs/blob/main/googlescript.sh)  
+```console
+bash googlescript.sh  
+/fujix/common/images/renew2009/bnr/bar_latvia.gif  
+/greenbox/greenbox/cabinet/list7/7146.jpg  
+/?option=com_k2&view=itemlist&task=user&id=141953  
+/robots.txt  
+...
+```
+ 
