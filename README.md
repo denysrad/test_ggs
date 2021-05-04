@@ -22,7 +22,7 @@
 
 -   Create test directory and block access for all to it.
 - mkdir testdir
-- chmod 000 testdirr
+- chmod 000 testdir
 -   Try to remove that directory.
 - rmdir testdir
 
@@ -36,7 +36,7 @@
 ## Log checking
 
 -  Count lines in the file test.txt.
-
+- wc -l test.txt
 
 - Show last 3 lines from the test.txt file. 
 
