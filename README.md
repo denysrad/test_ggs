@@ -15,7 +15,7 @@
 -    print the text from the test1/test1.txt file.
 - cat text1.txt
 -    Insert 'test2' into the end of test1/test1.txt file.
-
+- echo 'test2' >> test1.txt
 -    print the text from the test1/test1.txt file.
 
 ## Permissions
