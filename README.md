@@ -49,7 +49,7 @@ rmdir testdir
 ```  
 
 -    Create simple script which prints current date. Try to execute it.  
-Скрипт[тут](https://github.com/denysrad/test_ggs/blob/main/date.sh)    
+Скрипт [тут](https://github.com/denysrad/test_ggs/blob/main/date.sh)    
 ```console      
 bash date.sh
 2021-05-04
