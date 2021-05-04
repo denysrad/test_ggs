@@ -7,17 +7,18 @@
 -    Create copy of folder test1 with name test2.  
 - cp -R test1 test2
 -    Delete file test1.txt inside test2 directory.
-- rm test1.txt
+-cd test2 
+-rm test1.txt
 -    Rename test2 folder into directory_without_file
 - mv test2 directory_without_file
 -    Insert 'test1' text into test1/test1.txt file.
-- echo 'test1' > test1.txt
+- echo 'test1' > test1/test1.txt
 -    print the text from the test1/test1.txt file.
-- cat text1.txt
+- cat test1/text1.txt
 -    Insert 'test2' into the end of test1/test1.txt file.
-- echo 'test2' >> test1.txt
+- echo 'test2' >> test1/test1.txt
 -    print the text from the test1/test1.txt file.
-- cat text1.txt
+- cat test1/test1.txt
 ## Permissions
 
 -   Create test directory and block access for all to it.
