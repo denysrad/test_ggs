@@ -17,7 +17,7 @@
 -    Insert 'test2' into the end of test1/test1.txt file.
 - echo 'test2' >> test1.txt
 -    print the text from the test1/test1.txt file.
-
+- cat text1.txt
 ## Permissions
 
 -   Create test directory and block access for all to it.
